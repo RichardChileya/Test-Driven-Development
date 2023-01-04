@@ -6,6 +6,6 @@ describe Solver do
   end
 
   it 'reversed word' do
-    expect(solver.reverse('hello')).to eq 'olleh'
+    expect(@solver.reverse('hello')).to eq 'olleh'
   end
 end
